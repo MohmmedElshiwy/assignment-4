@@ -6,6 +6,20 @@
     scroll-behavior: smooth;
 
 }
+button {
+    cursor: pointer;
+    color: #fff;
+    transition: .5s;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 15px 30px;
+    margin-top: 10px;
+    background-color: #ff3050;
+}
+button:hover{
+    background-color: red;
+}
 .clear-fix{
     clear: both;
 }
@@ -160,13 +174,18 @@ transform: translateX(24px) translateY(24px);
 
     transition: 1s cubic-bezier(0,1.04,.95,1.16);
     padding-top:50% ;
-    && i {
-        margin-left: 10px;
-        margin-top: 50px;
-        cursor: pointer;
-        color: #fff;
-    }
-
+}
+/* .about button{
+    padding: 10px 30px;
+} */
+.about .icon i {
+    margin-left: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+    color: #ff3050;
+}
+.about .icon i:hover{
+    color: #fff;
 }
 .about .img:hover .icon{
     top:  0;
@@ -277,6 +296,7 @@ scale: 1.2;    }
     background: transparent;
     text-transform: uppercase;
     font-size: 20px;
+    color: #000;
     cursor: pointer;
 
 }
@@ -480,20 +500,7 @@ textarea{
 
 }
 
-button {
-    cursor: pointer;
-    color: #fff;
-    transition: .5s;
-    border: none;
-    border-radius: 5px;
-    font-size: 20px;
-    padding: 15px 30px;
-    margin-top: 10px;
-    background-color: #ff3050;
-}
-button:hover{
-    background-color: red;
-}
+
 .footer{
     background-color: #333;
     padding: 10px 0;
