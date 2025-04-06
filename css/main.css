@@ -6,6 +6,10 @@
     scroll-behavior: smooth;
 
 }
+ .active{
+    color: #ff3050 !important ;
+
+}
 button {
     cursor: pointer;
     color: #fff;
@@ -94,15 +98,7 @@ z-index: 1;
     float: left;
     font-size: 32px;
 }
-.logo>a{
-    color: #ff3050;
-
-}
-.active{
-    color: #ff3050;
-
-}
-.links{
+.header-links{
     float: right;
     margin-top: 10px;
 } 
@@ -111,13 +107,13 @@ z-index: 1;
     float: left;
     margin-left: 5px;
 }
-.header li>a{
+.header-links a{
     padding: 5px;
     color: #fff;
     font-size: 18px;
 }
 
-li>a:hover{
+.header-links a:hover{
     color: #ff3050;
 
 }
@@ -183,9 +179,7 @@ transform: translateX(24px) translateY(24px);
     transition: 1s cubic-bezier(0,1.04,.95,1.16);
     padding-top:50% ;
 }
-/* .about button{
-    padding: 10px 30px;
-} */
+
 .about .icon i {
     margin-left: 10px;
     margin-top: 50px;
@@ -292,20 +286,16 @@ padding: 20px 0;
     && i {
 scale: 1.2;    }
 }
-.portfolio .links{
+.portfolio-links{
     margin: 30px auto;
     text-align: center;
     width: 100%;
 }
 .portfolio-menu button{
-    border: none;
-    border-radius: 5px;
-    padding: 10px 30px;
+  
     background: transparent;
     text-transform: uppercase;
-    font-size: 20px;
     color: #000;
-    cursor: pointer;
 
 }
 .portfolio-menu button:hover{
