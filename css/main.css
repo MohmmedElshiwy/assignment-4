@@ -81,7 +81,15 @@ margin:30px auto;
     background-position: center;
     height: 100vh;
 }
-
+.nav{
+    position: fixed;
+    /* top: 200px; */
+    top: 0;
+    width: 100%;
+background: #000000c9;
+padding: 10px 50px;
+z-index: 1;
+}
 .logo{
     float: left;
     font-size: 32px;
@@ -251,11 +259,11 @@ padding: 20px 0;
 .services{
     background-color: #F1F1F1;
 }
-.services .items , .sec-4 .items{
+.services .items , .Testimonial .items{
     padding: 10px;
     /* background-color: #555555; */
 }
-.services .item , .sec-4 .item{
+.services .item , .Testimonial .item{
     width: 25%;
     /* background-color: #ff3050; */
     padding: 40px 10px;
@@ -345,7 +353,7 @@ display: block;}
 
     
 }
-.sec-4{
+.Testimonial{
     background-color: #F1F1F1;
 }
 .feedback {
