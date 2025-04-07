@@ -8,7 +8,7 @@
 }
 
 .active {
-  color: #ff3050 !important;
+  color: #ff3050 ;
 }
 
 button {
@@ -32,6 +32,8 @@ button:hover {
 
 a {
   text-decoration: none;
+  color: #fff;
+
 }
 
 .center {
@@ -116,7 +118,7 @@ h2 {
   margin-top: 10px;
 }
 
-.header li {
+.header-links li {
   list-style: none;
   float: left;
   margin-left: 5px;
@@ -124,7 +126,6 @@ h2 {
 
 .header-links a {
   padding: 5px;
-  color: #fff;
   font-size: 18px;
 }
 
@@ -136,9 +137,10 @@ h2 {
   color: #fff;
   font-weight: 600;
   position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%);}
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
 
 .hero span {
   color: #fff;
@@ -295,6 +297,7 @@ h1 {
   /* background-color: #ff3050; */
   padding: 40px 10px;
   border-radius: 5px;
+  cursor: pointer;
   float: left;
   border: 0;
 
@@ -332,7 +335,12 @@ h1 {
 .portfolio-menu button {
   background: transparent;
   text-transform: uppercase;
+}
+
+.portfolio-menu button:not(:first-child){
   color: #000;
+
+
 }
 
 .portfolio-menu button:hover {
@@ -451,7 +459,7 @@ h1 {
 .single-blog {
   float: left;
   width: 33%;
-  padding: 10px;
+  padding: 10px; 
   border-radius: 5px;
   /* background-color: #ff3050; */
   margin: auto;
