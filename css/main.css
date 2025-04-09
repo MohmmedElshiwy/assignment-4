@@ -91,7 +91,7 @@ h2 {
 }
 
 .header {
-  background: linear-gradient(rgba(0, 0, 0, 0.774)), url(../imgs/slider-02.jpg);
+  background:linear-gradient(rgba(0, 0, 0, 0.774),rgba(0, 0, 0, 0.774)) , url(../imgs/slider-02.jpg) ;
   background-size: cover;
   background-position: center;
   position: relative;
